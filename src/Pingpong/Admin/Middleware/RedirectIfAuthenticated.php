@@ -16,7 +16,7 @@ class RedirectIfAuthenticated
      */
     public function handle($request, Closure $next)
     {
-        if (auth()->check()) {
+        if (auth()->check() && $request->user()->is('admin')) {
             return redirect()->route('admin.home');
         }
 

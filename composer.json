@@ -1,12 +1,12 @@
 {
-    "name": "pingpong/admin",
+    "name": "trbhoang/admin",
     "description": "Laravel Admin Package",
-    "keywords": ["pingpong", "admin", "laravel", "administrator"],
+    "keywords": ["trbhoang", "admin", "laravel", "administrator"],
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Pingpong Labs",
-            "email": "pingpong.labs@gmail.com"
+            "name": "Hoang Tran",
+            "email": "trbhoang@gmail.com"
         }
     ],
     "require": {
